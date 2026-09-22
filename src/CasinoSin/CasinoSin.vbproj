@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>CasinoSin</RootNamespace>
+    <AssemblyName>CasinoSin</AssemblyName>
+    <StartupObject>CasinoSin.Program</StartupObject>
+    <MyType>Empty</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <OptionCompare>Binary</OptionCompare>
+    <NeutralLanguage>fr-FR</NeutralLanguage>
+    <Product>Casino Sin</Product>
+    <AssemblyTitle>Casino Sin</AssemblyTitle>
+    <Company>Projet personnel</Company>
+    <Description>Casino 2D fictif en VB.NET : roulette europeenne et blackjack contre un bot.</Description>
+    <Version>1.0.0</Version>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+</Project>
