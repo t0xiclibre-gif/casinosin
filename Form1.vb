@@ -5,7 +5,7 @@ Public Class Form1
     Dim EnColor As Integer
 
     ' Timer utilisé pour faire une pause de 3 secondes
-    Private WithEvents TimerPause As New Timer()
+    Private WithEvents TimerPause As New System.Windows.Forms.Timer()
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Button1.Enabled = False
