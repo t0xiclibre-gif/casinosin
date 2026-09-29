@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>casinosin</RootNamespace>
+    <StartupObject>casinosin.Program</StartupObject>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>
